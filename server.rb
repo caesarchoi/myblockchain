@@ -1,14 +1,13 @@
 # encoding: UTF-8
 
 require 'sinatra'
-require 'sinatra/reloder'
 
-get '/mining' do
-   "<h1 style='text-align:center'>회원가입 페이지 입니다.</h1>"
+get '/회원가입 페이지' do
+   "회원가입 페이지 입니다."
 
  end
 
- get '/make_a_transaction' do
+ get '/회원가입' do
    "회원가입 페이지 입니다."
 
  end
